@@ -1,0 +1,76 @@
+main {
+    margin: 68px 90px 86px (91px + 133px);
+}
+
+.presentation {
+    margin-bottom: 77px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 24px;
+    color: #000000;
+
+    span {
+        color: #FF0101;
+    }
+}
+
+.congratsText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container-dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1124px;
+    max-height: 613px;
+}
+
+.container-charts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-big-chart {
+    width: 835px;
+    height: 320px;
+    margin-bottom: 30px;
+}
+
+.title-activity {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #20253A;
+    padding-top: 50px;
+}
+
+.container-small-charts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-small-chart {
+    width: 258px;
+    height: 263px;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

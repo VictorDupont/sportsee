@@ -1,0 +1,58 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: calc(100% - 91px);
+    width: 117px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 91px; /* Ajout de la marge en haut */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    p {
+      width: 138px;
+      color: white;
+      margin: 0;
+      font-size: 12px;
+      transform: rotate(-90deg); /* Rotation du texte */
+      transform-origin: bottom left; /* Point d'origine de la rotation */
+      position: absolute; /* Positionnement absolu pour le mettre en bas du footer */
+      bottom: 50px;
+      left: 65px;
+      padding: 0 10px; /* Ajout de la marge pour espacer le texte des bords */
+    }
+  }
+  
+  
+  
+  .icon-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  border-radius: 7%;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  cursor: pointer;
+  }
+  
+  .icon-container i {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .icon-container span {
+    color: white;
+    font-size: 14px;
+  }
